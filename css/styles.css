@@ -1,0 +1,64 @@
+body{
+    background-color: #8ECAE6;
+    
+}
+.logo-alura{
+    margin: 25px 50px 0 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+    
+}
+.botones-inicio{
+    margin: auto;
+    
+}
+input{
+    display: block;
+    margin: 30px auto;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn-iniciar{
+    background-color: #FB8500;
+    border-radius: 15px;
+    border-color: transparent;
+    padding: 25px 40px;
+    font-family: Courier New;
+    font-size: 20px;
+    font-weight: bold;
+    color: #023047;
+    
+}
+.btn-agregar{
+    background-color: #023047;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 15px 25px;
+    font-family: Courier New;
+    font-size: 17px;
+    color: white;
+    
+}
+.btn-iniciar:hover{
+    background-color:#023047;
+    color: white;
+}
+.btn-agregar:hover{
+    background-color:#FB8500;
+    color: #023047;
+}
+footer{
+    background-color: #023047;
+    text-align: center;
+    width:100%;
+}
+footer p{
+    padding: 25px;
+    font-family: sans-serif;
+    color: white;
+}
