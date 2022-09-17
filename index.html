@@ -14,12 +14,16 @@
     </header>
     <main>
         <div class="container">
-            <div class="botones-inicio">
-                <input type="button" class="btn-iniciar" value="Iniciar juego">
+            <div id="botones" class="botones-inicio">
+                <input type="button" class="btn-iniciar" value="Iniciar juego" onclick="iniciarJuego()">
                 <input type="button" class="btn-agregar" value="Agregar palabra">
+            </div>
+            <div id="canvas-iniciado" class="canvas-juego">
+                <canvas width="1200" height="600"></canvas>
             </div>
         </div>
     </main>
+    <script src="./js/horca.js"></script>
   <footer>
     <p>Copy</p>
   </footer>

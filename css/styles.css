@@ -52,6 +52,10 @@ input{
     background-color:#FB8500;
     color: #023047;
 }
+.canvas-juego{
+    display: none;
+    
+}
 footer{
     background-color: #023047;
     text-align: center;
